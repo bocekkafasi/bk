@@ -1,0 +1,36 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package netbeans_project1;
+
+/**
+ *
+ * @author vuralfat
+ */
+public class Netbeans_project1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+
+           int a = 1988; 
+        String x = "benim ismim fatma bay";
+        System.out.println("10. Karakter: " + x.charAt(10));
+        x=x.toUpperCase();
+        
+        int ilkbosluk = x.indexOf(" ");
+         String ilkkelime = x.substring(0, ilkbosluk);
+        
+        int sonbosluk = x.lastIndexOf(" ");
+        
+        String sonkelime = x.substring(sonbosluk);
+        
+        System.out.println(" Hello World! "+ x + a + " İlk Boşluk: " + ilkbosluk + " Son Boşluk: " + sonbosluk);
+        System.out.println(ilkbosluk);
+        System.out.println(sonkelime);
+    }
+    
+}
