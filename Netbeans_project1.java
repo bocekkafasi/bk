@@ -16,21 +16,14 @@ public class Netbeans_project1 {
      */
     public static void main(String[] args) {
 
-           int a = 1988; 
-        String x = "benim ismim fatma bay";
-        System.out.println("10. Karakter: " + x.charAt(10));
-        x=x.toUpperCase();
+        int a [] = new int[5];
+        a[3]=8; // 0,0,0,8,0
+        System.out.println("A dizisinin 3. karakteri: "+a[3]);
+        int b[] = {1,3,5,8,2};
         
-        int ilkbosluk = x.indexOf(" ");
-         String ilkkelime = x.substring(0, ilkbosluk);
+        String str [] = {"ali" , "baba" , "ve" , "kırk" , "haramiler"};
         
-        int sonbosluk = x.lastIndexOf(" ");
-        
-        String sonkelime = x.substring(sonbosluk);
-        
-        System.out.println(" Hello World! "+ x + a + " İlk Boşluk: " + ilkbosluk + " Son Boşluk: " + sonbosluk);
-        System.out.println(ilkbosluk);
-        System.out.println(sonkelime);
+        System.out.println(str[2]+b[2]+a[4]);
     }
     
 }
